@@ -6,7 +6,7 @@ dotenv.config();
 const api = new TodoistApi(process.env.TOKEN_API);
 
 (async () => {
-    const browser = await puppeteer.launch({});
+    const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
     await page.goto("https://randomtodolistgenerator.herokuapp.com/library");
