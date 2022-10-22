@@ -1,0 +1,18 @@
+{
+  "name": "test-incfile",
+  "version": "1.0.0",
+  "description": "Webscraping with puppeteer to make task's in todoist.com",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.1.0"
+  }
+}
